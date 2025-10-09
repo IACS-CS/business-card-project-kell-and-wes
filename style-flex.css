@@ -1,3 +1,30 @@
 /* Style for card-2 (your flexbox example) */
-.card-2 {
+.card-2{
+  background-color:rgb(243, 7, 7);
+  color:white;
+  display: flex;
+}
+.card-2 card-front{
+display:flex;
+}
+.card-front p{
+  text-size: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  height: 100%
+}
+.card-2 card-back{
+background-color:rgb(243, 7, 7);
+color:white;
+
+}
+
+.Title{
+font-size:45px;
+display:flex;
+justify-content: center;
+align-items: center;
+font-family: monospace;
+height: 100%;
 }
